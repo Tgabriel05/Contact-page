@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: "Be Vietnam Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(assets/bg-image.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+img#icon-img{
+  padding: 15px 45px;
+  cursor: pointer;
+}
+.container{
+  color: #FFFFFF;
+  width: 700px;
+  margin: 0 auto 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 40px 0;
+}
+.container h1{
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.container p{
+  font-size: 1.5rem;
+  margin-bottom: 35px;
+}
+.box{
+  background: #f8fafc3a;
+  padding: 25px;
+  border-radius: 20px;
+  width: 100%;
+}
+.box input, select, button{
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.box input, select{
+  font-size: 0.85rem;
+  padding: 0 18px;
+  margin-bottom: 15px;
+}
+.box select,
+input::placeholder,
+textarea{
+  font-weight: 600;
+}
+.box input::placeholder{
+  color: #CDD5E0;
+}
+.box label{
+  float: inline-start;
+  font-size: 0.675rem;
+  margin-bottom: 2px;
+}
+.box textarea{
+  width: 100%;
+  border-radius: 10px;
+  resize: none;
+  border: none;
+  outline: none;
+  padding: 18px;
+  margin-bottom: 10px;
+}
+.box button{
+  color: #4036A9;
+  font-weight: 700;
+  cursor: pointer;
+}
+.box select{
+  background:#fff url(assets/Expand_down.svg) no-repeat scroll calc(93% + 3px) center/20px auto;
+  appearance: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .container h1{
+    font-size: 2.5rem;
+  }
+  .container p{
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width:640px) {
+  .container{
+    width: 420px;
+    margin-top: 20px;
+  }
+  img#icon-img{
+    padding: 15px 19px;
+  }
+  .box input, select,textarea{
+    font-size: 0.7rem;
+  }
+  .box{
+    padding: 20px 20px 45px;
+  }
+}

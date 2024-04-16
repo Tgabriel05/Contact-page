@@ -20,20 +20,20 @@ img#icon-img{
 .container{
   color: #FFFFFF;
   width: 700px;
-  margin: 0 auto 0;
+  margin: 25px auto 0;
   text-align: center;
   justify-content: center;
   align-items: center;
   padding: 0 0 40px 0;
 }
 .container h1{
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 600;
   margin-bottom: 10px;
 }
 .container p{
-  font-size: 1.5rem;
-  margin-bottom: 35px;
+  font-size: 2rem;
+  margin-bottom: 55px;
 }
 .box{
   background: #f8fafc3a;
@@ -87,10 +87,10 @@ textarea{
 
 @media screen and (max-width: 1024px) {
   .container h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   .container p{
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 @media screen and (max-width:640px) {
@@ -106,5 +106,11 @@ textarea{
   }
   .box{
     padding: 20px 20px 45px;
+  }
+  .container h1{
+    font-size: 2rem;
+  }
+  .container p{
+    font-size: 1rem;
   }
 }
